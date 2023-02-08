@@ -1,0 +1,26 @@
+.fondo{
+    background-color: palevioletred;
+}
+
+
+.face{
+    color: white;
+    width: 80px;
+    height: 80px;
+    padding-left: 140px;
+    padding-right: 30px;
+}
+
+.insta{
+    color: white;
+    width: 80px;
+    height: 80px;
+    padding-right: 30px;
+}
+
+.twitter{
+    color: white;
+    width: 80px;
+    height: 80px;
+    padding-right: 30px;
+}

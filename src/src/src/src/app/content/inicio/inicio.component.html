@@ -1,0 +1,45 @@
+<owl-carousel
+[options]="{ items: 1,nav: false,dots: true}"
+   [carouselClasses]="['owl-theme']">
+   <div *ngFor="let imagen of imagenes">
+      <img src = "{{imagen}}">  
+   </div>
+</owl-carousel>
+<H1>
+   <p> 
+      Los Mas Vendidos
+   </p>
+</H1>
+<owl-carousel
+[options]="{ items: 2, dots: false}"
+   [carouselClasses]="['owl-theme']">
+   <div *ngFor="let imagen2 of imagenes2">
+      <img src = "{{imagen2}}">  
+   </div>
+</owl-carousel>
+<H1>
+   <p> 
+      Llaveros
+   </p>
+</H1>
+<owl-carousel
+[options]="{ items: 2, dots: false}"
+   [carouselClasses]="['owl-theme']">
+   <div *ngFor="let imagen3 of imagenes3">
+      <img src = "{{imagen3}}">  
+   </div>
+</owl-carousel>
+<H1>
+   <p> 
+      Funko Soda
+   </p>
+</H1>
+<owl-carousel
+[options]="{ items: 3, dots: false}"
+   [carouselClasses]="['owl-theme']">
+   <div *ngFor="let imagen4 of imagenes4">
+      <img src = "{{imagen4}}">  
+   </div>
+</owl-carousel>
+
+   
